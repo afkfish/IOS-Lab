@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Tapír</string>
+		<key>image</key>
+		<string>tapir.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Kiwi</string>
+		<key>image</key>
+		<string>kiwi.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ló</string>
+		<key>image</key>
+		<string>horse.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sündisznó</string>
+		<key>image</key>
+		<string>hedgehog.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Őz</string>
+		<key>image</key>
+		<string>deer.jpg</string>
+	</dict>
+</array>
+</plist>
