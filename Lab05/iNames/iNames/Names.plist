@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Mária</string>
+		<key>meaning</key>
+		<string>Jelentése megfejtetlen, minden magyarázata vitatott. Lehetséges jelentései: a) mirha, az ókor egyik legdrágább illatszere, b) keserű(ség).</string>
+		<key>origin</key>
+		<string>biblia</string>
+		<key>nicks</key>
+		<string>Marcsi, Marika, Marcsika, Maris</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tünde</string>
+		<key>meaning</key>
+		<string>Vörösmarty Mihály névalkotása a tündér szóból.</string>
+		<key>origin</key>
+		<string>Vörösmarty Mihály</string>
+		<key>nicks</key>
+		<string>Tünci, Tündi, Tündike, Petya</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Teodózia</string>
+		<key>meaning</key>
+		<string>Isten ajándéka.</string>
+		<key>origin</key>
+		<string>görög, latin</string>
+		<key>nicks</key>
+		<string>Teodóka, Teó, Teócsi</string>
+	</dict>
+</array>
+</plist>
