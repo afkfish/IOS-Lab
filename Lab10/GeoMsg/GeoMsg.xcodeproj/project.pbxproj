@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B1A0C1273C61D900EC6C44 /* GeoMsgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1A0C0273C61D900EC6C44 /* GeoMsgApp.swift */; };
+		26B1A0C3273C61D900EC6C44 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1A0C2273C61D900EC6C44 /* MessageListView.swift */; };
+		26B1A0C5273C61DD00EC6C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B1A0C4273C61DD00EC6C44 /* Assets.xcassets */; };
+		26B1A0C8273C61DD00EC6C44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B1A0C7273C61DD00EC6C44 /* Preview Assets.xcassets */; };
+		26B1A0CF273C623300EC6C44 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1A0CE273C623300EC6C44 /* Message.swift */; };
+		26B1A0D1273C668800EC6C44 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1A0D0273C668800EC6C44 /* ListRowView.swift */; };
+		26B1A0D3273C6BC200EC6C44 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1A0D2273C6BC200EC6C44 /* MessageViewModel.swift */; };
+		527E0ED42B0104EC00070960 /* MessageMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0ED32B0104EC00070960 /* MessageMapView.swift */; };
+		527E0ED62B0105E300070960 /* MessageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0ED52B0105E300070960 /* MessageTabView.swift */; };
+		527E0ED82B01063600070960 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0ED72B01063600070960 /* Thread.swift */; };
+		527E0EDA2B01065100070960 /* ThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0ED92B01065100070960 /* ThreadViewModel.swift */; };
+		527E0EDC2B0106D700070960 /* ThreadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0EDB2B0106D700070960 /* ThreadListView.swift */; };
+		527E0EDE2B010A4700070960 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E0EDD2B010A4700070960 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26B1A0BD273C61D900EC6C44 /* GeoMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMsg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B1A0C0273C61D900EC6C44 /* GeoMsgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMsgApp.swift; sourceTree = "<group>"; };
+		26B1A0C2273C61D900EC6C44 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		26B1A0C4273C61DD00EC6C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B1A0C7273C61DD00EC6C44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26B1A0CE273C623300EC6C44 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		26B1A0D0273C668800EC6C44 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		26B1A0D2273C6BC200EC6C44 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		26B1A0D4273C74F900EC6C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		527E0ED32B0104EC00070960 /* MessageMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMapView.swift; sourceTree = "<group>"; };
+		527E0ED52B0105E300070960 /* MessageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTabView.swift; sourceTree = "<group>"; };
+		527E0ED72B01063600070960 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		527E0ED92B01065100070960 /* ThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewModel.swift; sourceTree = "<group>"; };
+		527E0EDB2B0106D700070960 /* ThreadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadListView.swift; sourceTree = "<group>"; };
+		527E0EDD2B010A4700070960 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B1A0BA273C61D900EC6C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B1A0B4273C61D900EC6C44 = {
+			isa = PBXGroup;
+			children = (
+				26B1A0BF273C61D900EC6C44 /* GeoMsg */,
+				26B1A0BE273C61D900EC6C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B1A0BE273C61D900EC6C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0BD273C61D900EC6C44 /* GeoMsg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B1A0BF273C61D900EC6C44 /* GeoMsg */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0C0273C61D900EC6C44 /* GeoMsgApp.swift */,
+				527E0ED02B0103FB00070960 /* Model */,
+				527E0ED12B01040000070960 /* View */,
+				527E0ED22B01041300070960 /* ViewModel */,
+				26B1A0D4273C74F900EC6C44 /* Info.plist */,
+				26B1A0C4273C61DD00EC6C44 /* Assets.xcassets */,
+				26B1A0C6273C61DD00EC6C44 /* Preview Content */,
+				527E0EDD2B010A4700070960 /* LocationManager.swift */,
+			);
+			path = GeoMsg;
+			sourceTree = "<group>";
+		};
+		26B1A0C6273C61DD00EC6C44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0C7273C61DD00EC6C44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		527E0ED02B0103FB00070960 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0CE273C623300EC6C44 /* Message.swift */,
+				527E0ED72B01063600070960 /* Thread.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		527E0ED12B01040000070960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0D0273C668800EC6C44 /* ListRowView.swift */,
+				26B1A0C2273C61D900EC6C44 /* MessageListView.swift */,
+				527E0ED32B0104EC00070960 /* MessageMapView.swift */,
+				527E0ED52B0105E300070960 /* MessageTabView.swift */,
+				527E0EDB2B0106D700070960 /* ThreadListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		527E0ED22B01041300070960 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				26B1A0D2273C6BC200EC6C44 /* MessageViewModel.swift */,
+				527E0ED92B01065100070960 /* ThreadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B1A0BC273C61D900EC6C44 /* GeoMsg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B1A0CB273C61DD00EC6C44 /* Build configuration list for PBXNativeTarget "GeoMsg" */;
+			buildPhases = (
+				26B1A0B9273C61D900EC6C44 /* Sources */,
+				26B1A0BA273C61D900EC6C44 /* Frameworks */,
+				26B1A0BB273C61D900EC6C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoMsg;
+			productName = GeoMsg;
+			productReference = 26B1A0BD273C61D900EC6C44 /* GeoMsg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B1A0B5273C61D900EC6C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					26B1A0BC273C61D900EC6C44 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 26B1A0B8273C61D900EC6C44 /* Build configuration list for PBXProject "GeoMsg" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B1A0B4273C61D900EC6C44;
+			productRefGroup = 26B1A0BE273C61D900EC6C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B1A0BC273C61D900EC6C44 /* GeoMsg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B1A0BB273C61D900EC6C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B1A0C8273C61DD00EC6C44 /* Preview Assets.xcassets in Resources */,
+				26B1A0C5273C61DD00EC6C44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B1A0B9273C61D900EC6C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B1A0CF273C623300EC6C44 /* Message.swift in Sources */,
+				527E0ED62B0105E300070960 /* MessageTabView.swift in Sources */,
+				26B1A0C3273C61D900EC6C44 /* MessageListView.swift in Sources */,
+				527E0EDE2B010A4700070960 /* LocationManager.swift in Sources */,
+				26B1A0D3273C6BC200EC6C44 /* MessageViewModel.swift in Sources */,
+				527E0EDC2B0106D700070960 /* ThreadListView.swift in Sources */,
+				527E0ED42B0104EC00070960 /* MessageMapView.swift in Sources */,
+				26B1A0C1273C61D900EC6C44 /* GeoMsgApp.swift in Sources */,
+				26B1A0D1273C668800EC6C44 /* ListRowView.swift in Sources */,
+				527E0ED82B01063600070960 /* Thread.swift in Sources */,
+				527E0EDA2B01065100070960 /* ThreadViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26B1A0C9273C61DD00EC6C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B1A0CA273C61DD00EC6C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B1A0CC273C61DD00EC6C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoMsg/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PKRW86A3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoMsg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hu.bme.aut.GeoMsg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B1A0CD273C61DD00EC6C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoMsg/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PKRW86A3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoMsg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hu.bme.aut.GeoMsg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B1A0B8273C61D900EC6C44 /* Build configuration list for PBXProject "GeoMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B1A0C9273C61DD00EC6C44 /* Debug */,
+				26B1A0CA273C61DD00EC6C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B1A0CB273C61DD00EC6C44 /* Build configuration list for PBXNativeTarget "GeoMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B1A0CC273C61DD00EC6C44 /* Debug */,
+				26B1A0CD273C61DD00EC6C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B1A0B5273C61D900EC6C44 /* Project object */;
+}
